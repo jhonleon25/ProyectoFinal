@@ -41,4 +41,5 @@ Antes de comenzar con la configuración del balanceador de cargas, se deben cump
 2. Crear un archivo de configuración para HAProxy en /etc/haproxy/haproxy.cfg.
 3. Configurar el archivo de configuración de HAProxy de la siguiente manera:
 
+![haproxy.cfg]()
 
