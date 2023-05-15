@@ -41,7 +41,7 @@ Antes de comenzar con la configuración del balanceador de cargas, se deben cump
 2. Crear un archivo de configuración para HAProxy en /etc/haproxy/haproxy.cfg.
 3. Configurar el archivo de configuración de HAProxy de la siguiente manera:
 
-![haproxy.cfg](haproxy.cfg.jpg)
+![haproxy.cfg](agente datadog.jpg)
 4. Reiniciar HAProxy para aplicar los cambios.
 
 # Uso
@@ -57,7 +57,7 @@ Para usar el balanceador de cargas con HAProxy y tres máquinas de Ubuntu, sigue
 
 2. luega llenas tus datos personales.
 3. Te pidiran que instales el agente de datadog asi:
-![datadog-cuenta](datadog-cuenta.jpg)
+![agente datadog](agente datadog.jpg)
 # Contacto
 Si tienes preguntas o sugerencias sobre este proyecto, por favor contáctame en mi correo electrónico: [jhon.lenn@uao.edu.co].
 
