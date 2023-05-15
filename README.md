@@ -41,5 +41,15 @@ Antes de comenzar con la configuración del balanceador de cargas, se deben cump
 2. Crear un archivo de configuración para HAProxy en /etc/haproxy/haproxy.cfg.
 3. Configurar el archivo de configuración de HAProxy de la siguiente manera:
 
-![haproxy.cfg]()
+![haproxy.cfg](haproxy.cfg.jpg)
+4. Reiniciar HAProxy para aplicar los cambios.
+
+# Uso
+Para usar el balanceador de cargas con HAProxy y tres máquinas de Ubuntu, sigue los siguientes pasos:
+
+1. Accede al balanceador de cargas a través de su dirección IP en ete caso es la maquina con el nombre de haproxy.
+2. La solicitud será dirigida a uno de los dos servidores web de manera aleatoria.
+
+# Contacto
+Si tienes preguntas o sugerencias sobre este proyecto, por favor contáctame en mi correo electrónico: [jhon.lenn@uao.edu.co].
 
