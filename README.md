@@ -91,8 +91,10 @@ Para usar el balanceador de cargas con HAProxy y tres máquinas de Ubuntu, sigue
 3. Te pidiran que instales el agente de datadog asi:
 ![agente.datadog](agente.datadog.jpg)
 lo cual utilizas tu API KEY y utilizas el comando en la maquina en la que deseas instalar el agente datadog.
-4. Una vez configurado el agente de datadog en la maquina este debe permitir observar en el mapa de infraestructura la maquina asi:
-![mapainfraestructura](haproxy.cfg.jpg)
+4. Una vez configurado el agente de datadog en la maquina damos click en infraestructura y despues en  mapa de infraestructura nos debe dejar observar el host asi:
+![mapainfraestructura](mapainfraestrucrura.jpg)
+5. luego vamos al apartado de dashboards y damos click en new dashboard y creamos
+![creacion.dashboard](mapainfraestrucrura.jpg)
 
 # Contacto
 Si tienes preguntas o sugerencias sobre este proyecto, por favor contáctame en mi correo electrónico: [jhon.lenn@uao.edu.co].
