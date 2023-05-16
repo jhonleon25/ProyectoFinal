@@ -99,8 +99,10 @@ lo cual utilizas tu API KEY y utilizas el comando en la maquina en la que deseas
 ![agregarmetricas](agregarmetricas.jpg)
 7. Nos mostrara la siguiente ventana donde podemos escoger el tipo de grafico deseado.
 ![graficos](graficos.jpg)
-8. Una vez se escoja el grafico se procede a configurar las metricas que se quieren visualizar asi:
-![configuracion](graficos.jpg)
+8. Una vez se escoja el grafico se procede a configurar las metricas que se quieren visualizar y se dan click en save.
+![configuracion](configuracion.jpg)
+9. luegos podemos observar el grafico ya creado en nuestro dashboard.
+![configuracion](configuracion.jpg)
 # Contacto
 Si tienes preguntas o sugerencias sobre este proyecto, por favor contáctame en mi correo electrónico: [jhon.lenn@uao.edu.co].
 
