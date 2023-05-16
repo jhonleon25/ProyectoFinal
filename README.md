@@ -98,7 +98,9 @@ lo cual utilizas tu API KEY y utilizas el comando en la maquina en la que deseas
 6. Una vez creado el dashboard damos click en add widgets or Powerpacks.
 ![agregarmetricas](agregarmetricas.jpg)
 7. Nos mostrara la siguiente ventana donde podemos escoger el tipo de grafico deseado.
-![agregarmetricas](agregarmetricas.jpg)
+![graficos](graficos.jpg)
+8. Una vez se escoja el grafico se procede a configurar las metricas que se quieren visualizar asi:
+![configuracion](graficos.jpg)
 # Contacto
 Si tienes preguntas o sugerencias sobre este proyecto, por favor contáctame en mi correo electrónico: [jhon.lenn@uao.edu.co].
 
