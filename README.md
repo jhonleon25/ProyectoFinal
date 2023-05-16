@@ -94,7 +94,9 @@ lo cual utilizas tu API KEY y utilizas el comando en la maquina en la que deseas
 4. Una vez configurado el agente de datadog en la maquina damos click en infraestructura y despues en  mapa de infraestructura nos debe dejar observar el host asi:
 ![mapainfraestructura](mapainfraestrucrura.jpg)
 5. luego vamos al apartado de dashboards y damos click en new dashboard y creamos
-![creacion.dashboard](mapainfraestrucrura.jpg)
+![creacion.dashboard](creacion.dashboard.jpg)
+6. Una vez creado el dashboard damos click en add widgets or Powerpacks
+![agregarmetricas](mapainfraestrucrura.jpg)
 
 # Contacto
 Si tienes preguntas o sugerencias sobre este proyecto, por favor contáctame en mi correo electrónico: [jhon.lenn@uao.edu.co].
