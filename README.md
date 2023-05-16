@@ -1,4 +1,5 @@
 # Balanceador de carga con haproxy
+![haproxy.cfg](haproxy)
 
 ## Descripción.
 Este proyecto muestra cómo configurar un balanceador de cargas con HAProxy y tres máquinas de Ubuntu para mejorar la disponibilidad y escalabilidad de una aplicación web. Además, se utiliza Datadog para monitorear el rendimiento de una de las maquinas en este caso haproxy.
