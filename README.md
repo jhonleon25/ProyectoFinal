@@ -1,5 +1,5 @@
-# Balanceador de carga con haproxy
-![haproxy.cfg](haproxy)
+ # Balanceador de carga con haproxy
+![balanceador](balanceador.png)
 
 ## Descripción.
 Este proyecto muestra cómo configurar un balanceador de cargas con HAProxy y tres máquinas de Ubuntu para mejorar la disponibilidad y escalabilidad de una aplicación web. Además, se utiliza Datadog para monitorear el rendimiento de una de las maquinas en este caso haproxy.
@@ -9,7 +9,9 @@ Antes de comenzar con la configuración del balanceador de cargas, se deben cump
 
 1. Tener tres máquinas virtuales de Ubuntu instaladas y configuradas en la misma red.
 2. Tener privilegios de superusuario en las tres máquinas.
-3. Tener instalado HAProxy en la máquina que actuará como balanceador de cargas.
+3. Tener instalado HAProxy en la máquina que actuará como balanceador de cargas.  
+## Creacion del archivo Vagrantfile
+Se debe ejecutar el comando **Vagrant init** para crear el archivo y se configura asi en cualqier editor de texto asi:
 
 ## Vagrantfile
  encoding: UTF-8
@@ -37,7 +39,7 @@ backend1.vm.box = "bento/ubuntu-20.04"
  backend2.vm.hostname = "backend2"  
  end  
  end  
- Una vez configurado el Vagranfile se debe ejecutar el comando vagrant up para la creacion de las tres maquinas.
+ Una vez configurado el Vagranfile se debe ejecutar el comando **vagrant up** para la creacion de las tres maquinas.
 
 
 
@@ -49,7 +51,7 @@ backend1.vm.box = "bento/ubuntu-20.04"
 * IP: 192.168.100.5
 * Sistema operativo: Ubuntu
 * Servidor  instalado: haproxy y datadog-agent  
-Se debe instalar el servicio de haproxy ejecutando el siguiente comando: apt install haproxy, y se inicia el servicio con un el comando: sudo systemctl start haproxy.  
+Se debe instalar el servicio de haproxy ejecutando el siguiente comando: **apt install haproxy**, y se inicia el servicio con un el comando: **sudo systemctl start haproxy**.  
 tambien instalamos el agente de datadog con el comando ofrecido para la instalacion del agente en el cual se incluye la API KEY de la cuenta creada el cual nos enviara datos de las metricas monitoriadas en la interfaz grafica del dashboard realizado en datadog
 
 2. Configuración de la segunda máquina virtual
@@ -57,7 +59,7 @@ tambien instalamos el agente de datadog con el comando ofrecido para la instalac
 * IP: 192.168.100.6
 * Sistema operativo: Ubuntu
 * Servidor web instalado: Apache  
-Se debe instalar el servicio de apache2 con el siguiente comando: apt install apache2, una vez instalado se debe crear un archivo index.html el cual se crea en la ruta var/www/html y por ultimo se Ejecuta el siguiente comando para iniciar el servicio de Apache: sudo systemctl start apache2.
+Se debe instalar el servicio de apache2 con el siguiente comando: **apt install apache2**, una vez instalado se debe crear un archivo index.html el cual se crea en la ruta var/www/html y por ultimo se Ejecuta el siguiente comando para iniciar el servicio de Apache: **sudo systemctl start apache2**.
  
 
 3. Configuración de la tercera máquina virtual
@@ -65,7 +67,7 @@ Se debe instalar el servicio de apache2 con el siguiente comando: apt install ap
 * IP: 192.168.100.7
 * Sistema operativo: Ubuntu
 * Servidor web instalado: Apache  
-Se debe instalar el servicio de apache2 con el siguiente comando: apt install apache2 una vez instalado se debe crear un archivo index.html el cual se crea en la ruta var/www/html y por ultimo se Ejecuta el siguiente comando para iniciar el servicio de Apache: sudo service apache2 start.
+Se debe instalar el servicio de apache2 con el siguiente comando: **apt install apache2** una vez instalado se debe crear un archivo index.html el cual se crea en la ruta var/www/html y por ultimo se Ejecuta el siguiente comando para iniciar el servicio de Apache: **sudo service apache2 start**.
 
 
 # Configuración del balanceador de cargas
@@ -103,7 +105,8 @@ lo cual utilizas tu API KEY y utilizas el comando en la maquina en la que deseas
 8. Una vez se escoja el grafico se procede a configurar las metricas que se quieren visualizar y se dan click en save.
 ![configuracion](configuracion.jpg)
 9. luegos podemos observar el grafico ya creado en nuestro dashboard.
-![configuracion](configuracion.jpg)
+![configuracion](configuracion.jpg)  
+Y asi podemos seguir creando los graficos deseados para nuestro dashboard.
 # Contacto
-Si tienes preguntas o sugerencias sobre este proyecto, por favor contáctame en mi correo electrónico: [jhon.lenn@uao.edu.co].
+Si tienes preguntas o sugerencias sobre este proyecto, por favor contáctame en mi correo electrónico: [jhon.lenn@uao.edu.co]:+1:.
 
