@@ -84,7 +84,9 @@ Para usar el balanceador de cargas con HAProxy y tres máquinas de Ubuntu, sigue
 
 1. Accede al balanceador de cargas a través de su dirección IP en este caso es la maquina con el nombre de haproxy.
 2. La solicitud será dirigida a uno de los dos servidores web de manera aleatoria asi:
-![haproxy.cfg](![haproxy.cfg](haproxy.cfg.jpg))
+![backend1](backend1.jpg)
+![backend2](backend1.jpg)
+
 
 # Configuración de Datadog
 
