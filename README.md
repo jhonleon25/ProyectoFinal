@@ -107,7 +107,7 @@ lo cual utilizas tu API KEY y utilizas el comando en la maquina en la que deseas
 ![graficos](graficos.jpg)
 8. Una vez se escoja el grafico se procede a configurar las metricas que se quieren visualizar y se dan click en save.
 ![configuracion](configuracion.jpg)
-9. luegos podemos observar el grafico ya creado en nuestro dashboard.
+9. luego podemos observar el grafico ya creado en nuestro dashboard.
 ![grafico1](grafico1.jpg)  
 Y asi podemos seguir creando los graficos deseados para nuestro dashboard.
 # Contacto
