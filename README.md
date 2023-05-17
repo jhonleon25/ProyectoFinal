@@ -1,4 +1,4 @@
- # Balanceador de carga con haproxy
+ # Balanceador de carga con haproxy y Datadog
 ![balanceador](balanceador.png)
 
 ## Descripción.
