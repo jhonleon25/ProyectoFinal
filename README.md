@@ -51,7 +51,7 @@ backend1.vm.box = "bento/ubuntu-20.04"
 * IP: 192.168.100.5
 * Sistema operativo: Ubuntu
 * Servidor  instalado: haproxy y datadog-agent  
-Se debe instalar el servicio de haproxy ejecutando el siguiente comando: `apt install haproxy`, y se inicia el servicio con un el comando: `sudo systemctl start haproxy`.  
+Se debe instalar el servicio de haproxy ejecutando el siguiente comando: `apt install haproxy`, y se inicia el servicio con  el comando: `sudo systemctl start haproxy`.  
 tambien instalamos el agente de datadog con el comando ofrecido para la instalacion del agente en el cual se incluye la API KEY de la cuenta creada el cual nos enviara datos de las metricas monitoriadas en la interfaz grafica del dashboard realizado en datadog
 
 2. Configuración de la segunda máquina virtual
