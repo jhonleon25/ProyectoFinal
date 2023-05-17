@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>backend1 - Balanceador de cargas</title>
+    <style>
+      /* Estilos para el encabezado */
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      /* Estilos para el contenido */
+      article {
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 10px;
+        text-align: justify;
+      }
+
+      /* Estilos para el pie de página */
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>backend1 - Balanceador de cargas</h1>
+    </header>
+    <article>
+ <h2>Bienvenidos a la página backend1 de balanceo de cargas</h2>
+      <p>Esta es una página de ejemplo para un balanceador de cargas. En esta página se pueden agregar varios servidores para balancear la carga de trabajo.</p>
+
+      <p>¡Gracias por visitar nuestra página!</p>
+    </article>
+    <footer>
+      <p>Derechos reservados 2023 - backend1 - Balanceador de cargas</p>
+    </footer>
+  </body>
+</html>
+                                 
+                                                       
