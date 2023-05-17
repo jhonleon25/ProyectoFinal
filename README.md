@@ -83,7 +83,8 @@ Se debe instalar el servicio de apache2 con el siguiente comando: **apt install 
 Para usar el balanceador de cargas con HAProxy y tres máquinas de Ubuntu, sigue los siguientes pasos:
 
 1. Accede al balanceador de cargas a través de su dirección IP en este caso es la maquina con el nombre de haproxy.
-2. La solicitud será dirigida a uno de los dos servidores web de manera aleatoria.
+2. La solicitud será dirigida a uno de los dos servidores web de manera aleatoria asi:
+![haproxy.cfg](![haproxy.cfg](haproxy.cfg.jpg))
 
 # Configuración de Datadog
 
