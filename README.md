@@ -11,7 +11,7 @@ Antes de comenzar con la configuración del balanceador de cargas, se deben cump
 2. Tener privilegios de superusuario en las tres máquinas.
 3. Tener instalado HAProxy en la máquina que actuará como balanceador de cargas.  
 ## Creacion del archivo Vagrantfile
-Se debe ejecutar el comando **Vagrant init** para crear el archivo y se configura asi en cualqier editor de texto asi:
+Se debe ejecutar el comando **Vagrant init** para crear el archivo y se configura asi en cualqier editor de texto.
 
 ## Vagrantfile
  encoding: UTF-8
