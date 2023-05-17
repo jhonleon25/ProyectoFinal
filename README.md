@@ -59,7 +59,7 @@ tambien instalamos el agente de datadog con el comando ofrecido para la instalac
 * IP: 192.168.100.6
 * Sistema operativo: Ubuntu
 * Servidor web instalado: Apache  
-Se debe instalar el servicio de apache2 con el siguiente comando: **apt install apache2**, una vez instalado se debe crear un archivo index.html el cual se crea en la ruta var/www/html y por ultimo se Ejecuta el siguiente comando para iniciar el servicio de Apache: **sudo systemctl start apache2**.
+Se debe instalar el servicio de apache2 con el siguiente comando: **apt install apache2**, una vez instalado se debe crear un archivo index.html el cual se crea en la ruta **var/www/html** y por ultimo se Ejecuta el siguiente comando para iniciar el servicio de Apache: **sudo systemctl start apache2**.
  
 
 3. Configuración de la tercera máquina virtual
@@ -67,7 +67,7 @@ Se debe instalar el servicio de apache2 con el siguiente comando: **apt install 
 * IP: 192.168.100.7
 * Sistema operativo: Ubuntu
 * Servidor web instalado: Apache  
-Se debe instalar el servicio de apache2 con el siguiente comando: **apt install apache2** una vez instalado se debe crear un archivo index.html el cual se crea en la ruta var/www/html y por ultimo se Ejecuta el siguiente comando para iniciar el servicio de Apache: **sudo service apache2 start**.
+Se debe instalar el servicio de apache2 con el siguiente comando: **apt install apache2** una vez instalado se debe crear un archivo index.html el cual se crea en la ruta **var/www/html** y por ultimo se Ejecuta el siguiente comando para iniciar el servicio de Apache: **sudo service apache2 start**.
 
 
 # Configuración del balanceador de cargas
