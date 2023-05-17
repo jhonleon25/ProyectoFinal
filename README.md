@@ -73,7 +73,7 @@ Se debe instalar el servicio de apache2 con el siguiente comando: **apt install 
 # Configuración del balanceador de cargas
 
 1. Instalar HAProxy en la máquina que actuará como balanceador de cargas en este caso es la maquina con el nombre de haproxy.
-2. Crear un archivo de configuración para HAProxy en /etc/haproxy/haproxy.cfg.
+2. Crear un archivo de configuración para HAProxy en **/etc/haproxy/haproxy.cfg**.
 3. Configurar el archivo de configuración de HAProxy de la siguiente manera:
 
 ![haproxy.cfg](haproxy.cfg.jpg)
