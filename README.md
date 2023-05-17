@@ -93,7 +93,7 @@ Para usar el balanceador de cargas con HAProxy y tres máquinas de Ubuntu, sigue
 1. Crear la cuenta en datadog dando click en prueba gratuita.
 ![datadog-cuenta](datadog-cuenta.jpg)
 
-2. luega llenas tus datos personales.
+2. luego llenas tus datos personales.
 3. Te pidiran que instales el agente de datadog asi:
 ![agente.datadog](agente.datadog.jpg)
 lo cual utilizas tu API KEY y utilizas el comando en la maquina en la que deseas instalar el agente datadog.
